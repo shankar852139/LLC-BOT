@@ -1,16 +1,40 @@
-class AutoSeen {
-  name: "autoseen",
-  credits: "Thiệu Trung Kiên",
-  cooldowns: 60;
-  description: "Seen tin nhắn của người dùng!",
-  aliases: ["as"]
-  async events({ api }) {
-    this.config && api.markAsReadAll(() => {});
-  }
-  async execute() {
-    this.config = this.config ? false : true;
-    return message.reply(`Đã ${this.config ? "bật" : "tắt"} tính năng tự động seen tin nhắn người dùng`);
-  }
-}
+const fs = require('fs-extra');
+const pathFile = __dirname + '/cache/autosen.txt';
+if (!fs.existsSync(pathFile))
+  fs.writeFileSync(pathFile, 'true');
 
-export default new AutoSeen
+module.exports.config = {
+  name: "autoseen",
+  version: "1.0.0",
+  Permssion: 3,
+  credits: "NTKhang",
+  description: "Bật/tắt tự động seen khi có tin nhắn mới",
+  commandCategory: "Admin-Hệ Thống",
+  usages: "on/off",
+  cooldowns: 5
+};
+
+module.exports.handleEvent = async ({ api, event, args }) => {
+  const isEnable = fs.readFileSync(pathFile, 'utf-8');
+  if (isEnable == "true")
+    api.markAsReadAll(() => {});
+};
+
+module.exports. run = async ({ api, event, args }) => {
+  try {
+  if (args[0] == 'on') {
+    fs.writeFileSync(pathFile, 'true');
+    api.sendMessage('Đã bật chế độ tự động seen khi có tin nhắn mới', event.threadID, event.messageID);
+  }
+  else if (args[0] == 'off') {
+    fs.writeFileSync(pathFile, 'false');
+    api.sendMessage('Đã tắt chế độ tự động seen khi có tin nhắn mới', event.threadID, event.messageID);
+  }
+  else {
+    api.sendMessage('Sai cú pháp', event.threadID, event.messageID);
+  }
+  }
+  catch(e) {
+    console.log(e);
+  }
+};
