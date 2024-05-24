@@ -1,0 +1,2445 @@
+{
+    "100052443170616": {
+        "userID": "100052443170616",
+        "info": {
+            "name": "Trần Dương",
+            "firstName": "Dương",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100052443170616",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100052443170616/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 40,
+            "money": "19250"
+        },
+        "lastUpdated": 1713010778037
+    },
+    "100082166588573": {
+        "userID": "100082166588573",
+        "info": {
+            "name": "H ꪹ",
+            "firstName": "H",
+            "vanity": "mhungdev",
+            "profileUrl": "https://www.facebook.com/mhungdev",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": true,
+            "isBirthday": false,
+            "thumbSrc": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/438640651_444262684989281_635348551046861704_n.jpg?stp=dst-jpg_p200x200&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=T3SFs-XuuigAb4tjLo8&_nc_ht=scontent-hkg1-2.xx&oh=00_AfBenFBT9H8LEBWxpGgXieF13RVuKamyk9foXnXKWAsglA&oe=66291611",
+            "id": "100082166588573"
+        },
+        "data": {
+            "exp": 265,
+            "money": "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"
+        },
+        "lastUpdated": 1713012175988
+    },
+    "100080671350855": {
+        "userID": "100080671350855",
+        "info": {
+            "name": "Nguyễn Muoii",
+            "firstName": "Muoii",
+            "vanity": "muoisiuudz",
+            "profileUrl": "https://www.facebook.com/muoisiuudz",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100080671350855/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 24,
+            "money": "15000"
+        },
+        "lastUpdated": 1713010703297
+    },
+    "100095095151825": {
+        "userID": "100095095151825",
+        "info": {
+            "name": "Anh Kha",
+            "firstName": "Kha",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100095095151825",
+            "gender": 6,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100095095151825/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 50,
+            "money": "40000"
+        },
+        "lastUpdated": 1713010794438
+    },
+    "100049589662008": {
+        "userID": "100049589662008",
+        "info": {
+            "name": "Lê Gia Huy",
+            "firstName": "Huy",
+            "vanity": "andrimrighthand",
+            "profileUrl": "https://www.facebook.com/andrimrighthand",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100049589662008/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 2,
+            "money": "40000"
+        },
+        "lastUpdated": 1713010230785
+    },
+    "100046647212270": {
+        "userID": "100046647212270",
+        "info": {
+            "name": "MinhFuu JW",
+            "firstName": "JW",
+            "vanity": "minfuu.jw",
+            "profileUrl": "https://www.facebook.com/minfuu.jw",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100046647212270/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 1,
+            "money": "40000"
+        },
+        "lastUpdated": 1713010206423
+    },
+    "100095256339283": {
+        "userID": "100095256339283",
+        "info": {
+            "name": "Trần Huy",
+            "firstName": "Huy",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100095256339283",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100095256339283/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {},
+        "lastUpdated": 1713010220519
+    },
+    "100083117154230": {
+        "userID": "100083117154230",
+        "info": {
+            "name": "Tran Quang Thang",
+            "firstName": "Thang",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100083117154230",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100083117154230/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 8
+        },
+        "lastUpdated": 1713010692759
+    },
+    "100074391678353": {
+        "userID": "100074391678353",
+        "info": {
+            "name": "Huy Trần",
+            "firstName": "Huy",
+            "vanity": "mongbietdungfacebook",
+            "profileUrl": "https://www.facebook.com/mongbietdungfacebook",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": true,
+            "isBirthday": false,
+            "thumbSrc": "https://scontent-hkg1-1.xx.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MjxCv-EN2zgAb7oa2TI&_nc_ht=scontent-hkg1-1.xx&oh=00_AfCNGH7-xHnnv9bf2TXtkm8w3M8U-d3cVBZh2fqUTndmcA&oe=664ABBB8",
+            "id": "100074391678353"
+        },
+        "data": {
+            "exp": 590,
+            "money": "179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368"
+        },
+        "lastUpdated": 1713010790711
+    },
+    "61558052401123": {
+        "userID": "61558052401123",
+        "info": {
+            "name": "Raiden Shogun",
+            "firstName": "Raiden",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61558052401123",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/438058506_122114172194268413_5906975907905414806_n.jpg?stp=dst-jpg_p200x200&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hbn6ND4fzA4Ab5JXY-T&_nc_ht=scontent-hkg4-1.xx&oh=00_AfC0Le725LuDBYhsQW0j_LW3o3KbEpe0ZG7KQIp7Z048Ag&oe=66294999",
+            "id": "61558052401123"
+        },
+        "data": {
+            "money": "0"
+        },
+        "lastUpdated": 1713011832312
+    },
+    "100073997344546": {
+        "userID": "100073997344546",
+        "info": {
+            "name": "Lê Nguyễn Bảo Khang",
+            "firstName": "Bảo Khang",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100073997344546",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": true,
+            "isBirthday": false,
+            "thumbSrc": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/431435777_424473273362581_4946879694838502810_n.jpg?stp=c185.970.185.185a_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bN02RKwjRmwAb7luxno&_nc_ht=scontent-hkg1-2.xx&oh=00_AfBW6rqxzQIHmpGS7t6_MEQx8Ac06Tjqk0KW1OMi33O9DQ&oe=66295272",
+            "id": "100073997344546"
+        },
+        "data": {
+            "exp": 154,
+            "work": {
+                "lastWorked": 1713658802924,
+                "delay": 3600000
+            },
+            "money": "4935",
+            "daily": 1713610719594,
+            "afk": {
+                "status": false,
+                "reason": ""
+            }
+        },
+        "lastUpdated": 1713012175988
+    },
+    "100075751703026": {
+        "userID": "100075751703026",
+        "info": {
+            "name": "Khang Lê",
+            "firstName": "Khang",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100075751703026",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100075751703026/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 1
+        },
+        "lastUpdated": 1713010645902
+    },
+    "61557730837551": {
+        "userID": "61557730837551",
+        "info": {
+            "name": "Nguyễn Minh Hào",
+            "firstName": "Hào",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61557730837551",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/61557730837551/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {},
+        "lastUpdated": 1713010797882
+    },
+    "61554703944746": {
+        "userID": "61554703944746",
+        "info": {
+            "name": "Clara Uwu",
+            "firstName": "Clara",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61554703944746",
+            "gender": 6,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/61554703944746/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 3,
+            "money": "40000"
+        },
+        "lastUpdated": 1713012175988
+    },
+    "100077305374733": {
+        "userID": "100077305374733",
+        "info": {
+            "name": "Phạm Tuấn Tú",
+            "firstName": "Tuấn Tú",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100077305374733",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100077305374733/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 8,
+            "money": "40163"
+        },
+        "lastUpdated": 1713012175988
+    },
+    "100090757817318": {
+        "userID": "100090757817318",
+        "info": {
+            "name": "LastBreath Sans",
+            "firstName": "LastBreath",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100090757817318",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100090757817318/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 22,
+            "money": "40000"
+        },
+        "lastUpdated": 1713012175988
+    },
+    "100075282271301": {
+        "userID": "100075282271301",
+        "info": {
+            "name": "Nguyễn Hải Phong",
+            "firstName": "Hải Phong",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100075282271301",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-1/433430385_419165843936155_4343244064346451294_n.jpg?stp=dst-jpg_s200x200&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eSfQp9nsQrgAb6obYtR&_nc_ht=scontent-hkg1-2.xx&oh=00_AfA3umNn102BLxJRXxQXixWZLCS8PBPwef1UKt0vzk4l7g&oe=66295DE0",
+            "id": "100075282271301"
+        },
+        "data": {
+            "exp": 83,
+            "money": "48756",
+            "daily": 1713611287142,
+            "work": {
+                "lastWorked": 1713668350341,
+                "delay": 21600000
+            },
+            "afk": {
+                "status": false,
+                "reason": ""
+            }
+        },
+        "lastUpdated": 1713012175988
+    },
+    "100053511802811": {
+        "userID": "100053511802811",
+        "info": {
+            "name": "Nguyễn Gia Hào",
+            "firstName": "Hào",
+            "vanity": "dogge.nguyen.7",
+            "profileUrl": "https://www.facebook.com/dogge.nguyen.7",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100053511802811/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 4,
+            "money": "40000"
+        },
+        "lastUpdated": 1713012175988
+    },
+    "100066874209605": {
+        "userID": "100066874209605",
+        "info": {
+            "name": "Neko Yum",
+            "firstName": "Neko",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100066874209605",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100066874209605/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 22,
+            "money": "40000"
+        },
+        "lastUpdated": 1713012175988
+    },
+    "100062237196251": {
+        "userID": "100062237196251",
+        "info": {
+            "name": "Đinh Vũ Hoàng Hiếu",
+            "firstName": "Hoàng Hiếu",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100062237196251",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100062237196251/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 8,
+            "money": "40588"
+        },
+        "lastUpdated": 1713012175988
+    },
+    "7028166117268342": {
+        "userID": "7028166117268342",
+        "info": {
+            "thumbSrc": "https://graph.facebook.com/7028166117268342/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {},
+        "lastUpdated": 1713011820135
+    },
+    "100074036413882": {
+        "userID": "100074036413882",
+        "info": {
+            "name": "Huy Hoàng Lê",
+            "firstName": "Huy Hoàng",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100074036413882",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100074036413882/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 2,
+            "money": "40000"
+        },
+        "lastUpdated": 1713012175988
+    },
+    "100086273753908": {
+        "userID": "100086273753908",
+        "info": {
+            "name": "Đặng Lĩnh",
+            "firstName": "Lĩnh",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100086273753908",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100086273753908/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 8,
+            "money": "40000"
+        },
+        "lastUpdated": 1713012184088
+    },
+    "61554036484419": {
+        "userID": "61554036484419",
+        "info": {
+            "name": "Ngyễn Văn Hoàng",
+            "firstName": "Hoàng",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61554036484419",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/61554036484419/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 54
+        }
+    },
+    "61551506846359": {
+        "userID": "61551506846359",
+        "info": {
+            "id": "61551506846359",
+            "name": "Nguyễn Trung",
+            "firstName": "Trung",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61551506846359/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61551506846359",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 69
+        }
+    },
+    "61551607255722": {
+        "userID": "61551607255722",
+        "info": {
+            "id": "61551607255722",
+            "name": "Kiêt Đỗ",
+            "firstName": "Đỗ",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61551607255722/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61551607255722",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61555946015037": {
+        "userID": "61555946015037",
+        "info": {
+            "id": "61555946015037",
+            "name": "Tran Minh Quan",
+            "firstName": "Quan",
+            "vanity": "ttmq2410",
+            "thumbSrc": "https://graph.facebook.com/61555946015037/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/ttmq2410",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 2
+        }
+    },
+    "61557279236383": {
+        "userID": "61557279236383",
+        "info": {
+            "id": "61557279236383",
+            "name": "Khánh Toàn",
+            "firstName": "Khánh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61557279236383/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61557279236383",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 3
+        }
+    },
+    "100025311277946": {
+        "userID": "100025311277946",
+        "info": {
+            "id": "100025311277946",
+            "name": "Nguyễn Trung Nghĩa",
+            "firstName": "Nghĩa",
+            "vanity": "trunggnghia",
+            "thumbSrc": "https://graph.facebook.com/100025311277946/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/trunggnghia",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100025991167550": {
+        "userID": "100025991167550",
+        "info": {
+            "id": "100025991167550",
+            "name": "Tuấn Kiệt",
+            "firstName": "Kiệt",
+            "vanity": "tuankiet2406",
+            "thumbSrc": "https://graph.facebook.com/100025991167550/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/tuankiet2406",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100036219503167": {
+        "userID": "100036219503167",
+        "info": {
+            "id": "100036219503167",
+            "name": "Lê Hoàng Tuấn",
+            "firstName": "Hoàng Tuấn",
+            "vanity": "SuperSonic02",
+            "thumbSrc": "https://graph.facebook.com/100036219503167/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/SuperSonic02",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 5
+        }
+    },
+    "100038687873979": {
+        "userID": "100038687873979",
+        "info": {
+            "id": "100038687873979",
+            "name": "Đẹptrai Thìđổitên",
+            "firstName": "Đẹptrai",
+            "vanity": "trinh.tuoi.121",
+            "thumbSrc": "https://graph.facebook.com/100038687873979/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/trinh.tuoi.121",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100054633160377": {
+        "userID": "100054633160377",
+        "info": {
+            "id": "100054633160377",
+            "name": "Minh Duck",
+            "firstName": "Duck",
+            "vanity": "mducknee",
+            "thumbSrc": "https://graph.facebook.com/100054633160377/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/mducknee",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 4
+        }
+    },
+    "100069511579938": {
+        "userID": "100069511579938",
+        "info": {
+            "id": "100069511579938",
+            "name": "Hoàng Tuấn",
+            "firstName": "Tuấn",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100069511579938/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100069511579938",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100075982815842": {
+        "userID": "100075982815842",
+        "info": {
+            "id": "100075982815842",
+            "name": "Ngoo Đạt",
+            "firstName": "Ngoo",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100075982815842/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100075982815842",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 71
+        }
+    },
+    "100076294055018": {
+        "userID": "100076294055018",
+        "info": {
+            "id": "100076294055018",
+            "name": "Thái Hòa",
+            "firstName": "Hòa",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100076294055018/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100076294055018",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100077695471355": {
+        "userID": "100077695471355",
+        "info": {
+            "id": "100077695471355",
+            "name": "Trần Anh Duy",
+            "firstName": "Duy",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100077695471355/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100077695471355",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100080083578287": {
+        "userID": "100080083578287",
+        "info": {
+            "id": "100080083578287",
+            "name": "Nguyễn Minh Nhật",
+            "firstName": "Minh Nhật",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100080083578287/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100080083578287",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 4
+        }
+    },
+    "100091719467965": {
+        "userID": "100091719467965",
+        "info": {
+            "id": "100091719467965",
+            "name": "Lê Chí Vĩ",
+            "firstName": "Lê",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100091719467965/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100091719467965",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100092061534096": {
+        "userID": "100092061534096",
+        "info": {
+            "id": "100092061534096",
+            "name": "Nguyễn Quốc Việt",
+            "firstName": "Quốc Việt",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100092061534096/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100092061534096",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 5
+        }
+    },
+    "100093683517550": {
+        "userID": "100093683517550",
+        "info": {
+            "id": "100093683517550",
+            "name": "Trần Văn Quân",
+            "firstName": "Quân",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100093683517550/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100093683517550",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100095273023237": {
+        "userID": "100095273023237",
+        "info": {
+            "id": "100095273023237",
+            "name": "Nguyễn Nhật Nam",
+            "firstName": "Nhật Nam",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100095273023237/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100095273023237",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 47
+        }
+    },
+    "61550189006430": {
+        "userID": "61550189006430",
+        "info": {
+            "id": "61550189006430",
+            "name": "Rặn Ỉa Ra Nước",
+            "firstName": "Nước",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61550189006430/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61550189006430",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61550196955132": {
+        "userID": "61550196955132",
+        "info": {
+            "id": "61550196955132",
+            "name": "Ng Khánh Nam",
+            "firstName": "Nam",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61550196955132/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61550196955132",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61551780873640": {
+        "userID": "61551780873640",
+        "info": {
+            "id": "61551780873640",
+            "name": "Gia Haan",
+            "firstName": "Gia Haan",
+            "vanity": "yanashi.henyn16",
+            "thumbSrc": "https://graph.facebook.com/61551780873640/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/yanashi.henyn16",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 98
+        }
+    },
+    "61552011912334": {
+        "userID": "61552011912334",
+        "info": {
+            "id": "61552011912334",
+            "name": "Hà Chi",
+            "firstName": "Chi",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61552011912334/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61552011912334",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 70
+        }
+    },
+    "61552682258852": {
+        "userID": "61552682258852",
+        "info": {
+            "id": "61552682258852",
+            "name": "Tuan Anh",
+            "firstName": "Tuan",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61552682258852/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61552682258852",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61553860270603": {
+        "userID": "61553860270603",
+        "info": {
+            "id": "61553860270603",
+            "name": "Nguyễn Vũ",
+            "firstName": "Vũ",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61553860270603/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61553860270603",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61554656812038": {
+        "userID": "61554656812038",
+        "info": {
+            "id": "61554656812038",
+            "name": "Dat Ha",
+            "firstName": "Dat",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61554656812038/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61554656812038",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61555382818202": {
+        "userID": "61555382818202",
+        "info": {
+            "id": "61555382818202",
+            "name": "Le Quynh Anh",
+            "firstName": "Anh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61555382818202/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61555382818202",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61555738127126": {
+        "userID": "61555738127126",
+        "info": {
+            "id": "61555738127126",
+            "name": "Vai Ca Lon",
+            "firstName": "Vai",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61555738127126/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61555738127126",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61556020665797": {
+        "userID": "61556020665797",
+        "info": {
+            "id": "61556020665797",
+            "name": "Đại Chiến",
+            "firstName": "Chiến",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61556020665797/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61556020665797",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61556079249149": {
+        "userID": "61556079249149",
+        "info": {
+            "id": "61556079249149",
+            "name": "Dũng Đức",
+            "firstName": "Đức",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61556079249149/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61556079249149",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61556641982798": {
+        "userID": "61556641982798",
+        "info": {
+            "id": "61556641982798",
+            "name": "Ngu Tony",
+            "firstName": "Ngu",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61556641982798/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61556641982798",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61556821386672": {
+        "userID": "61556821386672",
+        "info": {
+            "id": "61556821386672",
+            "name": "Pé Zịt",
+            "firstName": "Zịt",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61556821386672/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61556821386672",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 4
+        }
+    },
+    "61557026496522": {
+        "userID": "61557026496522",
+        "info": {
+            "id": "61557026496522",
+            "name": "Pham Trọng Chandoivailon Trong",
+            "firstName": "Trong",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61557026496522/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61557026496522",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61557139228014": {
+        "userID": "61557139228014",
+        "info": {
+            "id": "61557139228014",
+            "name": "Huỳnh Anh Phi",
+            "firstName": "Anh Phi",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61557139228014/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61557139228014",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61557453122196": {
+        "userID": "61557453122196",
+        "info": {
+            "id": "61557453122196",
+            "name": "ʚMoezyi Chanɞ",
+            "firstName": "ʚMoezyi",
+            "vanity": "Moeechandangyeulam",
+            "thumbSrc": "https://graph.facebook.com/61557453122196/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/Moeechandangyeulam",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61557752906952": {
+        "userID": "61557752906952",
+        "info": {
+            "id": "61557752906952",
+            "name": "Nguyễn Tấn",
+            "firstName": "Tấn",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61557752906952/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61557752906952",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "61558222678952": {
+        "userID": "61558222678952",
+        "info": {
+            "id": "61558222678952",
+            "name": "Quân Nguyễn",
+            "firstName": "Nguyễn",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/61558222678952/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61558222678952",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100013865011321": {
+        "userID": "100013865011321",
+        "info": {
+            "id": "100013865011321",
+            "name": "Nguyễn Khang",
+            "firstName": "Khang",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100013865011321/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100013865011321",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100027988142815": {
+        "userID": "100027988142815",
+        "info": {
+            "id": "100027988142815",
+            "name": "Trang Trần",
+            "firstName": "Trang",
+            "vanity": "ha.dinhthi.54584",
+            "thumbSrc": "https://graph.facebook.com/100027988142815/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/ha.dinhthi.54584",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 11
+        }
+    },
+    "100041237175063": {
+        "userID": "100041237175063",
+        "info": {
+            "id": "100041237175063",
+            "name": "Khiêm Gia",
+            "firstName": "Khiêm",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100041237175063/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100041237175063",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100041462911006": {
+        "userID": "100041462911006",
+        "info": {
+            "id": "100041462911006",
+            "name": "Trần Quốc Huy",
+            "firstName": "Trần Quốc",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100041462911006/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100041462911006",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100049708454261": {
+        "userID": "100049708454261",
+        "info": {
+            "id": "100049708454261",
+            "name": "Nguyễn Duy Tùng",
+            "firstName": "Duy Tùng",
+            "vanity": "duytung.nguyen.712161",
+            "thumbSrc": "https://graph.facebook.com/100049708454261/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/duytung.nguyen.712161",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 1
+        }
+    },
+    "100054829297829": {
+        "userID": "100054829297829",
+        "info": {
+            "id": "100054829297829",
+            "name": "Huy Minh",
+            "firstName": "Huy",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100054829297829/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100054829297829",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 35
+        }
+    },
+    "100057653034786": {
+        "userID": "100057653034786",
+        "info": {
+            "id": "100057653034786",
+            "name": "An Cakto",
+            "firstName": "Cakto",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100057653034786/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100057653034786",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100064282224933": {
+        "userID": "100064282224933",
+        "info": {
+            "id": "100064282224933",
+            "name": "Minh Vmmn",
+            "firstName": "VMMN",
+            "vanity": "Minh.vm.929",
+            "thumbSrc": "https://graph.facebook.com/100064282224933/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/Minh.vm.929",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100065661292070": {
+        "userID": "100065661292070",
+        "info": {
+            "id": "100065661292070",
+            "name": "ML Trung",
+            "firstName": "ML",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100065661292070/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100065661292070",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100068916004113": {
+        "userID": "100068916004113",
+        "info": {
+            "id": "100068916004113",
+            "name": "Dương Ánh",
+            "firstName": "Ánh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100068916004113/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100068916004113",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100070974974074": {
+        "userID": "100070974974074",
+        "info": {
+            "id": "100070974974074",
+            "name": "Anhh Kiett",
+            "firstName": "Kiett",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100070974974074/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100070974974074",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100073149736904": {
+        "userID": "100073149736904",
+        "info": {
+            "id": "100073149736904",
+            "name": "Phạm Bảo Thái Dương",
+            "firstName": "Bảo Thái Dương",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100073149736904/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100073149736904",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100073175718039": {
+        "userID": "100073175718039",
+        "info": {
+            "id": "100073175718039",
+            "name": "Nguyễn Quý Đạt",
+            "firstName": "Đạt",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100073175718039/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100073175718039",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100075376624830": {
+        "userID": "100075376624830",
+        "info": {
+            "id": "100075376624830",
+            "name": "Lê Khánh Duy",
+            "firstName": "Duy",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100075376624830/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100075376624830",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100076428936197": {
+        "userID": "100076428936197",
+        "info": {
+            "id": "100076428936197",
+            "name": "Phạm Tài",
+            "firstName": "Phạm",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100076428936197/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100076428936197",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100078179790200": {
+        "userID": "100078179790200",
+        "info": {
+            "id": "100078179790200",
+            "name": "Pham Minh Hanhh",
+            "firstName": "Pham",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100078179790200/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100078179790200",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100081183675778": {
+        "userID": "100081183675778",
+        "info": {
+            "id": "100081183675778",
+            "name": "Luân Vũ",
+            "firstName": "Luân",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100081183675778/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100081183675778",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100081261005795": {
+        "userID": "100081261005795",
+        "info": {
+            "id": "100081261005795",
+            "name": "Trương Đại Thành",
+            "firstName": "Thành",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100081261005795/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100081261005795",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100081894901146": {
+        "userID": "100081894901146",
+        "info": {
+            "id": "100081894901146",
+            "name": "Kim Dung",
+            "firstName": "Kim",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100081894901146/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100081894901146",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100081904916952": {
+        "userID": "100081904916952",
+        "info": {
+            "id": "100081904916952",
+            "name": "Lâm Cop Pôn",
+            "firstName": "Pôn",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100081904916952/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100081904916952",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100082252410912": {
+        "userID": "100082252410912",
+        "info": {
+            "id": "100082252410912",
+            "name": "Mai Phương Oanh",
+            "firstName": "Oanh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100082252410912/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100082252410912",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100083367104369": {
+        "userID": "100083367104369",
+        "info": {
+            "id": "100083367104369",
+            "name": "Nguyễn Tùng Lâm",
+            "firstName": "Lâm",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100083367104369/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100083367104369",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100086059676803": {
+        "userID": "100086059676803",
+        "info": {
+            "id": "100086059676803",
+            "name": "Trần Hoàng Khoa",
+            "firstName": "Khoa",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100086059676803/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100086059676803",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 61
+        }
+    },
+    "100087371745083": {
+        "userID": "100087371745083",
+        "info": {
+            "id": "100087371745083",
+            "name": "Cphu Lyvv",
+            "firstName": "Cphu",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100087371745083/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100087371745083",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100087551137643": {
+        "userID": "100087551137643",
+        "info": {
+            "id": "100087551137643",
+            "name": "Hải Nguyễn",
+            "firstName": "Nguyễn",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100087551137643/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100087551137643",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 9
+        }
+    },
+    "100088836644123": {
+        "userID": "100088836644123",
+        "info": {
+            "id": "100088836644123",
+            "name": "Nguyễn Tiến Đạt",
+            "firstName": "Đạt",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100088836644123/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100088836644123",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100089100241352": {
+        "userID": "100089100241352",
+        "info": {
+            "id": "100089100241352",
+            "name": "Trần Hiếu Nghĩa",
+            "firstName": "Hiếu Nghĩa",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100089100241352/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100089100241352",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 2
+        }
+    },
+    "100089298192854": {
+        "userID": "100089298192854",
+        "info": {
+            "id": "100089298192854",
+            "name": "Tấn Lộc",
+            "firstName": "Tấn",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100089298192854/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100089298192854",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100090051000556": {
+        "userID": "100090051000556",
+        "info": {
+            "id": "100090051000556",
+            "name": "Vũ Hoàn",
+            "firstName": "Vũ",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100090051000556/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100090051000556",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100092865548991": {
+        "userID": "100092865548991",
+        "info": {
+            "id": "100092865548991",
+            "name": "Tiếns Đạtf",
+            "firstName": "Đạtf",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100092865548991/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100092865548991",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100093227323633": {
+        "userID": "100093227323633",
+        "info": {
+            "id": "100093227323633",
+            "name": "Hinn Justin",
+            "firstName": "Justin",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100093227323633/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100093227323633",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100094026548113": {
+        "userID": "100094026548113",
+        "info": {
+            "id": "100094026548113",
+            "name": "Giangg Ng Tr",
+            "firstName": "Giangg",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100094026548113/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100094026548113",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100094932395327": {
+        "userID": "100094932395327",
+        "info": {
+            "id": "100094932395327",
+            "name": "Phuonganh Tran",
+            "firstName": "Phuonganh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100094932395327/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100094932395327",
+            "gender": "NEUTER",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100095795341734": {
+        "userID": "100095795341734",
+        "info": {
+            "id": "100095795341734",
+            "name": "Nguyen The Vinh",
+            "firstName": "vinh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100095795341734/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100095795341734",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100063860834755": {
+        "userID": "100063860834755",
+        "info": {
+            "name": "Đức Hoàng",
+            "firstName": "Đức",
+            "vanity": "hoangnonom",
+            "profileUrl": "https://www.facebook.com/hoangnonom",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/429808637_848628623942491_5700177561160906707_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rwaue1LRtuoAb7GtOw6&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDfRZOfP_wyzWYgcATlEE0w7hN6G3ME2SEEtYPRmf1n3A&oe=6629430F",
+            "id": "100063860834755"
+        },
+        "data": {
+            "exp": 17
+        }
+    },
+    "61550651813923": {
+        "userID": "61550651813923",
+        "info": {
+            "name": "Tống Hoàng Chí Sang",
+            "firstName": "Chí Sang",
+            "vanity": "Tsang.Bw",
+            "profileUrl": "https://www.facebook.com/Tsang.Bw",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/61550651813923/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 9
+        }
+    },
+    "100084457690938": {
+        "userID": "100084457690938",
+        "info": {
+            "name": "Hoàng Thích Nak",
+            "firstName": "Hoàng",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100084457690938",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100084457690938/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 52
+        }
+    },
+    "100040767427556": {
+        "userID": "100040767427556",
+        "info": {
+            "id": "100040767427556",
+            "name": "Minh Kiệt",
+            "firstName": "Minh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100040767427556/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100040767427556",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100040908933114": {
+        "userID": "100040908933114",
+        "info": {
+            "id": "100040908933114",
+            "name": "Nhựt Khoa",
+            "firstName": "Khoa",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100040908933114/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100040908933114",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100049290602855": {
+        "userID": "100049290602855",
+        "info": {
+            "id": "100049290602855",
+            "name": "Tài Nguyễn",
+            "firstName": "Nguyễn",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100049290602855/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100049290602855",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 101,
+            "daily": 1713600832469,
+            "money": "0",
+            "work": {
+                "lastWorked": 1713678828018,
+                "delay": 3600000
+            }
+        }
+    },
+    "100050265172186": {
+        "userID": "100050265172186",
+        "info": {
+            "id": "100050265172186",
+            "name": "Nhật Quang",
+            "firstName": "Quang",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100050265172186/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100050265172186",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 7
+        }
+    },
+    "100051055792332": {
+        "userID": "100051055792332",
+        "info": {
+            "id": "100051055792332",
+            "name": "Hoàng Vũ",
+            "firstName": "Vũ",
+            "vanity": "khoinoi.thoi.3",
+            "thumbSrc": "https://graph.facebook.com/100051055792332/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/khoinoi.thoi.3",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 11,
+            "work": {
+                "lastWorked": 1713615767603,
+                "delay": 3600000
+            },
+            "money": "491",
+            "daily": 1713615773015
+        }
+    },
+    "100064125812752": {
+        "userID": "100064125812752",
+        "info": {
+            "id": "100064125812752",
+            "name": "Tran Rin",
+            "firstName": "Tran",
+            "vanity": "tran.rin.716970",
+            "thumbSrc": "https://graph.facebook.com/100064125812752/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/tran.rin.716970",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 10
+        }
+    },
+    "100071231633705": {
+        "userID": "100071231633705",
+        "info": {
+            "id": "100071231633705",
+            "name": "Trần Mei Anh",
+            "firstName": "Anh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100071231633705/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100071231633705",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100074385548699": {
+        "userID": "100074385548699",
+        "info": {
+            "id": "100074385548699",
+            "name": "Nhân Lê",
+            "firstName": "Nhân",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100074385548699/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100074385548699",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": true,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100074526769153": {
+        "userID": "100074526769153",
+        "info": {
+            "id": "100074526769153",
+            "name": "Nguyễn Cat",
+            "firstName": "Cat",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100074526769153/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100074526769153",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100074627679911": {
+        "userID": "100074627679911",
+        "info": {
+            "id": "100074627679911",
+            "name": "Thúy Trang",
+            "firstName": "Thúy",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100074627679911/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100074627679911",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100074719970590": {
+        "userID": "100074719970590",
+        "info": {
+            "id": "100074719970590",
+            "name": "Bùi Đức Hoàng",
+            "firstName": "Hoàng",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100074719970590/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100074719970590",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100075369218293": {
+        "userID": "100075369218293",
+        "info": {
+            "id": "100075369218293",
+            "name": "Nguyễn Thảo Nguyên",
+            "firstName": "Thảo Nguyên",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100075369218293/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100075369218293",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 12,
+            "daily": 1713678807124,
+            "money": "2207",
+            "work": {
+                "lastWorked": 1713678814134,
+                "delay": 10800000
+            }
+        }
+    },
+    "100075775536387": {
+        "userID": "100075775536387",
+        "info": {
+            "id": "100075775536387",
+            "name": "Lượng Suy",
+            "firstName": "Suy",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100075775536387/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100075775536387",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 120,
+            "daily": 1713600776844,
+            "money": "43",
+            "work": {
+                "lastWorked": 1713674752044,
+                "delay": 21600000
+            }
+        }
+    },
+    "100076489143940": {
+        "userID": "100076489143940",
+        "info": {
+            "id": "100076489143940",
+            "name": "Phạm Thảo",
+            "firstName": "Thảo",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100076489143940/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100076489143940",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 102
+        }
+    },
+    "100079301049660": {
+        "userID": "100079301049660",
+        "info": {
+            "id": "100079301049660",
+            "name": "Nguyễn Thị Thảo Nguyên",
+            "firstName": "Thảo Nguyên",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100079301049660/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100079301049660",
+            "gender": "NEUTER",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 63,
+            "daily": 1713677499334,
+            "money": "0",
+            "work": {
+                "lastWorked": 1713677506014,
+                "delay": 10800000
+            }
+        }
+    },
+    "100079479188787": {
+        "userID": "100079479188787",
+        "info": {
+            "id": "100079479188787",
+            "name": "Người dùng Facebook",
+            "thumbSrc": "https://graph.facebook.com/100079479188787/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": null,
+            "type": "UnavailableMessagingActor",
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100079529975386": {
+        "userID": "100079529975386",
+        "info": {
+            "id": "100079529975386",
+            "name": "Hi Hello",
+            "firstName": "Hi",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100079529975386/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100079529975386",
+            "gender": "NEUTER",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100084634656725": {
+        "userID": "100084634656725",
+        "info": {
+            "id": "100084634656725",
+            "name": "Sói Cô Độc",
+            "firstName": "Cô Độc",
+            "vanity": "hoasicodoc",
+            "thumbSrc": "https://graph.facebook.com/100084634656725/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/hoasicodoc",
+            "gender": "NEUTER",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100084956516572": {
+        "userID": "100084956516572",
+        "info": {
+            "id": "100084956516572",
+            "name": "Komatsu Mika",
+            "firstName": "Komatsu",
+            "vanity": "KomatsuMika304",
+            "thumbSrc": "https://graph.facebook.com/100084956516572/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/KomatsuMika304",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100085363466296": {
+        "userID": "100085363466296",
+        "info": {
+            "id": "100085363466296",
+            "name": "Chủ Tịch Ri",
+            "firstName": "Ri",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100085363466296/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100085363466296",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100087289027874": {
+        "userID": "100087289027874",
+        "info": {
+            "id": "100087289027874",
+            "name": "Thuy Trang",
+            "firstName": "Thuy",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100087289027874/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100087289027874",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100088499063382": {
+        "userID": "100088499063382",
+        "info": {
+            "id": "100088499063382",
+            "name": "Duy Duy Nguyen",
+            "firstName": "Duy Duy",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100088499063382/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100088499063382",
+            "gender": "NEUTER",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 25,
+            "money": "10050"
+        }
+    },
+    "100089329020678": {
+        "userID": "100089329020678",
+        "info": {
+            "id": "100089329020678",
+            "name": "Buh Khoa",
+            "firstName": "Buh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100089329020678/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100089329020678",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 1
+        }
+    },
+    "100092943770005": {
+        "userID": "100092943770005",
+        "info": {
+            "id": "100092943770005",
+            "name": "Người dùng Facebook",
+            "thumbSrc": "https://graph.facebook.com/100092943770005/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": null,
+            "type": "UnavailableMessagingActor",
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100093119581528": {
+        "userID": "100093119581528",
+        "info": {
+            "id": "100093119581528",
+            "name": "Yn Huowg",
+            "firstName": "yn",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100093119581528/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100093119581528",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100094135044289": {
+        "userID": "100094135044289",
+        "info": {
+            "id": "100094135044289",
+            "name": "Phạm Thảo",
+            "firstName": "Thảo",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100094135044289/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100094135044289",
+            "gender": "NEUTER",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100095125578361": {
+        "userID": "100095125578361",
+        "info": {
+            "id": "100095125578361",
+            "name": "Sạtboisitềnh Sầulevelmax",
+            "firstName": "Sầulevelmax",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100095125578361/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100095125578361",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100095256519917": {
+        "userID": "100095256519917",
+        "info": {
+            "id": "100095256519917",
+            "name": "Nguyễn Phát Tài",
+            "firstName": "Tài",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100095256519917/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100095256519917",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 260,
+            "work": {
+                "lastWorked": 1713691501660,
+                "delay": 3600000
+            },
+            "money": "9660",
+            "daily": 1713692408761
+        }
+    },
+    "100086103895193": {
+        "userID": "100086103895193",
+        "info": {
+            "id": "100086103895193",
+            "name": "Thai Hoa",
+            "firstName": "Hoa",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100086103895193/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100086103895193",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 19
+        }
+    },
+    "100089342860093": {
+        "userID": "100089342860093",
+        "info": {
+            "id": "100089342860093",
+            "name": "Nguyễn Công Huynh",
+            "firstName": "Huynh",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100089342860093/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100089342860093",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {}
+    },
+    "100055936118373": {
+        "userID": "100055936118373",
+        "info": {
+            "id": "100055936118373",
+            "name": "Đào Vy",
+            "firstName": "Vy",
+            "vanity": "bac.tranthibac.5095",
+            "thumbSrc": "https://graph.facebook.com/100055936118373/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/bac.tranthibac.5095",
+            "gender": "FEMALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 83,
+            "money": "1000000000000000"
+        }
+    },
+    "61557296496895": {
+        "userID": "61557296496895",
+        "info": {
+            "name": "Thưa Bố",
+            "firstName": "Bố",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61557296496895",
+            "gender": 6,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/61557296496895/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 30
+        }
+    },
+    "100066373568691": {
+        "userID": "100066373568691",
+        "info": {
+            "name": "Phong Nakano",
+            "firstName": "Phong",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100066373568691",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100066373568691/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {}
+    },
+    "100073184180960": {
+        "userID": "100073184180960",
+        "info": {
+            "name": "Người dùng Facebook",
+            "firstName": "Người dùng Facebook",
+            "gender": 7,
+            "type": "user",
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100073184180960/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {}
+    },
+    "100090355467222": {
+        "userID": "100090355467222",
+        "info": {
+            "name": "Võ Nguyễn Hoàng",
+            "firstName": "Võ",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100090355467222",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100090355467222/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {}
+    },
+    "100089605866801": {
+        "userID": "100089605866801",
+        "info": {
+            "name": "Kiều Thái",
+            "firstName": "Thái",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100089605866801",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100089605866801/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 363,
+            "money": "1676",
+            "daily": 1713692422907,
+            "work": {
+                "lastWorked": 1713692442012,
+                "delay": 1800000
+            }
+        }
+    },
+    "100062579053652": {
+        "userID": "100062579053652",
+        "info": {
+            "name": "Quên Đặt Tên",
+            "firstName": "Tên",
+            "vanity": "yuuuuimeewew",
+            "profileUrl": "https://www.facebook.com/yuuuuimeewew",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100062579053652/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 13
+        }
+    },
+    "100089595668842": {
+        "userID": "100089595668842",
+        "info": {
+            "id": "100089595668842",
+            "name": "Võ Minh Đăng",
+            "firstName": "Võ",
+            "vanity": "",
+            "thumbSrc": "https://graph.facebook.com/100089595668842/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100089595668842",
+            "gender": "MALE",
+            "type": "User",
+            "isFriend": false,
+            "isBirthday": false
+        },
+        "data": {
+            "exp": 100,
+            "money": "3964",
+            "work": {
+                "lastWorked": 1713675535734,
+                "delay": 10800000
+            },
+            "afk": {
+                "status": false,
+                "reason": ""
+            }
+        }
+    },
+    "61553603612987": {
+        "userID": "61553603612987",
+        "info": {
+            "name": "Kag Le",
+            "firstName": "Kag",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61553603612987",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/61553603612987/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 9,
+            "daily": 1713625078587,
+            "money": "2104",
+            "work": {
+                "lastWorked": 1713625082104,
+                "delay": 10800000
+            }
+        }
+    },
+    "100036940445542": {
+        "userID": "100036940445542",
+        "info": {
+            "name": "Phu Vo",
+            "firstName": "Phu",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100036940445542",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100036940445542/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {}
+    },
+    "61554690905812": {
+        "userID": "61554690905812",
+        "info": {
+            "name": "Hồ Hoàng Điệp",
+            "firstName": "Điệp",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61554690905812",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/61554690905812/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {}
+    },
+    "100090718266853": {
+        "userID": "100090718266853",
+        "info": {
+            "name": "Ph Kiệt",
+            "firstName": "Ph",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=100090718266853",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/100090718266853/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {}
+    },
+    "61550222190650": {
+        "userID": "61550222190650",
+        "info": {
+            "name": "Dân Meme",
+            "firstName": "Meme",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61550222190650",
+            "gender": 1,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/61550222190650/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {
+            "exp": 6
+        }
+    },
+    "61551719735356": {
+        "userID": "61551719735356",
+        "info": {
+            "name": "Red Noobq",
+            "firstName": "Noobq",
+            "vanity": "",
+            "profileUrl": "https://www.facebook.com/profile.php?id=61551719735356",
+            "gender": 2,
+            "type": "user",
+            "isFriend": false,
+            "isBirthday": false,
+            "thumbSrc": "https://graph.facebook.com/61551719735356/picture?type=large&width=500&height=500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+        },
+        "data": {}
+    }
+}
