@@ -9,7 +9,7 @@ class AutoSeen {
   }
   async execute() {
     this.config = this.config ? false : true;
-    return kaguya.reply(`Đã ${this.config ? "bật" : "tắt"} tính năng tự động seen tin nhắn người dùng`);
+    return message.reply(`Đã ${this.config ? "bật" : "tắt"} tính năng tự động seen tin nhắn người dùng`);
   }
 }
 
