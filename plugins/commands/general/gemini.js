@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai"
 import { existsSync, writeFileSync } from "fs"
-const geminikey = ""
+const geminikey = "AIzaSyBnTS8W_3_RMxP9A3oZtS382stLuyuqmJw"
 const geminiAutoPath = "/onMessage/geminiAuto.js"
 const ea = "your thread is not a group!"
 const AI = new GoogleGenerativeAI(process.env.GEMINIKEY || geminikey)
