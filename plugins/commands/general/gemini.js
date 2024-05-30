@@ -4,7 +4,7 @@ const geminikey = "AIzaSyBnTS8W_3_RMxP9A3oZtS382stLuyuqmJw"
 const geminiAutoPath = "/onMessage/geminiAuto.js"
 const ea = "your thread is not a group!"
 const AI = new GoogleGenerativeAI(process.env.GEMINIKEY || geminikey)
-const model = AI.getGenerativeModel({ model: "gemini-pro" })
+const model = AI.getGenerativeModel({ model: "gemini-pro-vision" })
 
 const config = {
   name: "gemini",
