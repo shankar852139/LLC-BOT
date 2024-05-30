@@ -21,6 +21,13 @@ const langData = {
         "threadnoti.alreadyOn": "Thông báo nhóm đã được bật từ trước.",
         "threadnoti.alreadyOff": "Thông báo nhóm đã được tắt từ trước.",
         "error": "Đã có lỗi xảy ra, vui lòng thử lại sau."
+    },
+    "ar_SY": {
+        "threadnoti.on": "تم تشغيل إعلامات المجموعة.",
+        "threadnoti.off": "تم إيقاف تشغيل إعلامات المجموعة.",
+        "threadnoti.alreadyOn": "تم تمكين إعلامات المجموعة بالفعل.",
+        "threadnoti.alreadyOff": "تم إيقاف تشغيل إعلامات المجموعة من قبل.",
+        "error": "لقد حدث خطأ، رجاء أعد المحاولة لاحقا."
     }
 }
 
@@ -46,12 +53,6 @@ async function changeConfig(threadID, senderID, option) {
         notifyChange.registered.splice(notifyChange.registered.indexOf(String(senderID)), 1);
     } else {
         throw "Already";
-    }
-
-    if (notifyChange.registered.length == 0) {
-        notifyChange.status = false;
-    } else {
-        notifyChange.status = true;
     }
 
     await Threads.updateData(threadID, { notifyChange: notifyChange });

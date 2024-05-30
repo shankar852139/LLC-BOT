@@ -1,43 +1,51 @@
-import cron from 'node-cron'
+import cron from "node-cron";
 
 // learn more about cron time here:
 // https://www.npmjs.com/package/node-cron?activeTab=readme
 const jobs = [
     {
         time: "0 22 * * *", // every day at 22:00 (10 PM)
-        message: () => "𝒄𝒉𝒖𝒄 𝒎𝒐𝒊 𝒏𝒈𝒖𝒐𝒊 𝒏𝒈𝒖 𝒏𝒈𝒐𝒏 ❤️",
+        message: () => "It's 10 PM, good night!",
     },
     {
-        time: "0 3 * * *", // every day at 22:21 (10:21 PM)
-        message: () => "3𝒉 𝒔𝒂𝒏𝒈 𝒕𝒊𝒎 𝒅𝒐𝒊 𝒕𝒉𝒖 🐧",
+        time: "21 22 * * *", // every day at 22:21 (10:21 PM)
+        message: () => "It's 10:21 PM, good night!",
+        targetIDs: ["100008907121641"], // list of ids that bot will send to, remove this to send to all group
     },
-    {
-
-        time: "0 5 * * *", // every day at 22:21 (10:21 PM)
-
-        message: () => "𝒔𝒂𝒏𝒈 𝒓𝒐𝒊 𝒅𝒂𝒚 𝒅𝒆 😪",
-
-    }
-]
+];
 
 export default function autoSend() {
-    // cron.getTasks().forEach(task => task.stop());
-
     const timezone = global.config?.timezone || "Asia/Ho_Chi_Minh";
     if (!timezone) return;
 
     for (const job of jobs) {
-        cron.schedule(job.time, () => {
-            let i = 0;
-            for (const tid of job.targetIDs || Array.from(global.data.threads.keys()) || []) {
-                setTimeout(() => {
-                    global.api.sendMessage({
-                        body: job.message()
-                    }, tid);
-                }, (i++) * 300)
+        cron.schedule(
+            job.time,
+            () => {
+                let i = 0;
+                for (const tid of job.targetIDs ||
+                    Array.from(global.data.threads.keys()) ||
+                    []) {
+                    setTimeout(async () => {
+                        try {
+                            const msg = await job.message();
+                            await global.api.sendMessage(
+                                typeof msg == "string"
+                                    ? {
+                                          body: job.message(),
+                                      }
+                                    : msg,
+                                tid
+                            );
+                        } catch (e) {
+														console.error(e);
+												}
+                    }, i++ * 300);
+                }
+            },
+            {
+                timezone: timezone,
             }
-        }, {
-            timezone: timezone
-        })
+        );
     }
 }

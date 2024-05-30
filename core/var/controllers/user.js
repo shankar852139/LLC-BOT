@@ -1,68 +1,76 @@
-const _4HOURS = 1000 * 60 * 60 * 4;
-const MAX_BALANCE = BigInt(Number.MAX_VALUE);
+import logger from "../modules/logger.js";
+import models from "../models/index.js";
 
-export default function () {
-    const { DATABASE } = global.config;
-    const logger = global.modules.get('logger');
+const _4HOURS = 1000 * 60 * 60 * 4;
+const MAX_EXP = Number.MAX_SAFE_INTEGER;
+
+/**
+ *
+ * @param {xDatabase} database
+ * @param {import("@xaviabot/fca-unofficial").IFCAU_API} api
+ * @returns
+ */
+export default function getCUser(database, api) {
+    const { DATABASE } = database;
 
     /**
      * Get user info from api
-     * @param {String} uid 
-     * @returns Object info or null
+     * @param {String} uid
+     * @returns {Promise<User["info"] | null>} Object info or null
      */
     async function getInfoAPI(uid) {
         if (!uid) return null;
         uid = String(uid);
-        const info = await global.api.getUserInfo(uid) || [];
+        const info = await api.getUserInfo(uid).catch((_) => []);
         if (info[uid]) {
-            let _info = { ...info[uid] };
-            delete _info.thumbSrc;
+            updateInfo(uid, { ...info[uid] });
 
-            updateInfo(uid, _info);
-
-            return info;
+            return info[uid];
         } else {
             create(uid, {});
 
             return null;
-        };
+        }
     }
 
     /**
      * Get full user data from Database, if not exist, run create
-     * @param {String} uid 
-     * @returns Object data or null
+     * @param {String} uid
+     * @returns {Promise<User | null>} Object info or null
      */
     async function get(uid) {
         if (!uid) return null;
         uid = String(uid);
-        const userData = global.data.users.get(uid) || null;
+        let userData = global.data.users.get(uid);
 
-        if (userData === null || !userData?.info?.id) {
-            if (userData === null || userData?.hasOwnProperty("lastUpdated")) {
-                if (userData === null || userData.lastUpdated + _4HOURS < Date.now()) {
-                    await getInfoAPI(uid);
-                }
-            }
+        const isInvalidData = userData === null || userData?.info?.id == undefined;
+        const isOutdatedData =
+            userData?.hasOwnProperty("lastUpdated") && userData.lastUpdated + _4HOURS < Date.now();
 
-            return global.data.users.get(uid) || null;
-        } else return userData;
+        if (isInvalidData || isOutdatedData) {
+            await getInfoAPI(uid);
+
+            userData = global.data.users.get(uid);
+        }
+
+        return userData || null;
     }
 
     /**
      * Get full users data from Database
-     * @param {Array} uids 
-     * @returns Array of user data
+     * @param {string[]} uids
+     * @returns {(User | null)[]} Array of user data
      */
     function getAll(uids) {
-        if (uids && Array.isArray(uids)) return uids.map(uid => global.data.users.get(String(uid)) || null);
+        if (uids && Array.isArray(uids))
+            return uids.map((uid) => global.data.users.get(String(uid)) || null);
         else return Array.from(global.data.users.values());
     }
 
     /**
      * Get user info from database
-     * @param {String} uid 
-     * @returns Object data or null
+     * @param {String} uid
+     * @returns Object info or null
      */
     async function getInfo(uid) {
         if (!uid) return null;
@@ -80,10 +88,9 @@ export default function () {
         return userData?.info?.name || null;
     }
 
-
     /**
      * Get user data from database
-     * @param {String} uid 
+     * @param {string} uid
      * @returns Object data or null
      */
     async function getData(uid) {
@@ -95,50 +102,47 @@ export default function () {
     }
 
     /**
-     * Update user info, if user not yet in database, try to create, if cant -> return false
-     * @param {String} uid 
-     * @param {Object} data 
-     * @returns Boolean
+     * Update user info
+     * @param {String} uid
+     * @param {Record<string, any} data
+     * @returns {Promise<Boolean>}
      */
-    function updateInfo(uid, data) {
+    async function updateInfo(uid, data) {
         if (!uid || !data || typeof data !== "object" || Array.isArray(data)) return false;
         uid = String(uid);
         const userData = global.data.users.get(uid) || null;
         if (userData !== null) {
+            data.thumbSrc = global.utils.getAvatarURL(uid);
             Object.assign(userData.info, data);
             global.data.users.set(uid, userData);
 
-            if (DATABASE === 'JSON' || DATABASE === 'MONGO') {
+            if (DATABASE === "JSON" || DATABASE === "MONGO") {
                 return true;
             }
         } else return create(uid, data);
     }
 
-
     /**
-     * Update user data, if user not yet in database, try to create, if cant -> return false
-     * @param {String} uid 
-     * @param {Object} data 
+     * Update user data; money will not be included.
+     * @param {String} uid
+     * @param {Object} data
      * @returns Boolean
      */
     async function updateData(uid, data) {
         if (!uid || !data || typeof data !== "object" || Array.isArray(data)) return false;
         uid = String(uid);
+
         try {
             const userData = await get(uid);
             if (userData !== null) {
                 if (data.hasOwnProperty("money")) {
-                    if (BigInt(data.money) > MAX_BALANCE) data.money = MAX_BALANCE;
-                    else if (BigInt(data.money) < 0) data.money = 0n;
-                    else data.money = BigInt(data.money);
-
-                    data.money = String(data.money);
+                    logger.warn("Updating money with updateData method is deprecated, please use Balance instead.")
                 }
 
                 Object.assign(userData.data, data);
                 global.data.users.set(uid, userData);
 
-                if (DATABASE === 'JSON' || DATABASE === 'MONGO') {
+                if (DATABASE === "JSON" || DATABASE === "MONGO") {
                     return true;
                 }
             } else return false;
@@ -150,39 +154,60 @@ export default function () {
 
     /**
      * Create new user data
-     * @param {String} uid 
-     * @param {Object} data 
+     * @param {String} uid
+     * @param {Object} data
      * @returns Boolean
      */
-    function create(uid, data) {
+    async function create(uid, data) {
         if (!uid || !data) return false;
         uid = String(uid);
         const userData = global.data.users.get(uid) || null;
-        if (userData === null) {
-            data.thumbSrc = global.getAvatarURL(uid);
 
+        delete data.id;
+        data.thumbSrc = global.utils.getAvatarURL(uid);
+
+        if (userData === null) {
             global.data.users.set(uid, {
                 userID: uid,
                 info: data,
-                data: {}
+                data: { exp: 1, money: 0 },
             });
 
-            if (DATABASE === 'JSON') {
-                logger.custom(global.getLang(`database.user.get.success`, { userID: uid }), 'DATABASE');
+            if (DATABASE === "JSON") {
+                logger.custom(
+                    global.getLang(`database.user.get.success`, {
+                        userID: uid,
+                    }),
+                    "DATABASE"
+                );
                 return true;
-            } else if (DATABASE === 'MONGO') {
-                global.data.models.Users.create({
+            } else if (DATABASE === "MONGO") {
+                const createResult = await models.Users.create({
                     userID: uid,
                     info: data,
-                    data: { exp: 1, money: "0" }
-                }, (err, res) => {
-                    if (err) return false;
-                    logger.custom(global.getLang(`database.user.get.success`, { userID: uid }), 'DATABASE');
-                    return true;
-
+                    data: { exp: 1, money: 0 },
+                }).catch((e) => {
+                    console.error(e);
+                    return null;
                 });
+
+                if (createResult == null) return false;
+                logger.custom(
+                    global.getLang(`database.user.get.success`, {
+                        userID: uid,
+                    }),
+                    "DATABASE"
+                );
+                return true;
             }
         } else {
+            if (!userData.info) userData.info = {};
+            if (!userData.data)
+                userData.data = {
+                    exp: 1,
+                    money: 0,
+                };
+
             Object.assign(userData.info, data);
 
             global.data.users.set(uid, userData);
@@ -192,61 +217,118 @@ export default function () {
     }
 
     /**
-     * 
-     * @param {String} uid 
-     * @returns money as String or null
+     *
+     * @param {string} uid
+     * @param {number} amount
+     * @param {boolean} withEffect
      */
-    function getMoney(uid) {
+    function increaseExp(uid, amount, withEffect) {
+        if (!uid || !amount) return false;
+        if (!global.utils.isAcceptableNumber(amount)) return false;
+
+        uid = String(uid);
+
+        try {
+            const userData = global.data.users.get(uid) || null;
+            if (userData !== null) {
+                let finalNumber = parseInt(userData.data.exp || 0) + parseInt(amount);
+
+                if (withEffect) {
+                    const extraPercentFromEffect = global.plugins.effects.getCalculated(uid).exp;
+                    finalNumber = parseInt(finalNumber * (1 + extraPercentFromEffect));
+                }
+
+                if (finalNumber > MAX_EXP) finalNumber = MAX_EXP;
+                else if (finalNumber < 0) finalNumber = 0;
+
+                userData.data.exp = finalNumber;
+                global.data.users.set(uid, userData);
+
+                if (DATABASE === "JSON" || DATABASE === "MONGO") {
+                    return true;
+                }
+            } else return false;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     *
+     * @param {string} uid
+     * @param {number} amount
+     * @returns
+     */
+    function decreaseExp(uid, amount) {
+        if (!uid || !amount) return false;
+        if (!global.utils.isAcceptableNumber(amount)) return false;
+
+        uid = String(uid);
+
+        try {
+            const userData = global.data.users.get(uid) || null;
+            if (userData !== null) {
+                const finalNumber = parseInt(userData.data.exp || 0) - parseInt(amount);
+
+                if (finalNumber > MAX_EXP) finalNumber = MAX_EXP;
+                else if (finalNumber < 0) finalNumber = 0;
+
+                userData.data.exp = finalNumber;
+                global.data.users.set(uid, userData);
+
+                if (DATABASE === "JSON" || DATABASE === "MONGO") {
+                    return true;
+                }
+            } else return false;
+        } catch (e) {
+            console.error(e);
+            return false;
+        }
+    }
+
+    /**
+     *
+     * @param {String} uid
+     * @returns exp as Number or null
+     */
+    function getExp(uid) {
         if (!uid) return null;
         uid = String(uid);
         const userData = global.data.users.get(uid) || null;
         if (userData !== null) {
-            return userData.data.money || "0";
+            return parseInt(userData.data.exp || 0);
         } else return null;
     }
 
-    function increaseMoney(uid, amount) {
-        if (!uid || !amount) return false;
-        uid = String(uid);
-        if (Number(amount) === NaN) return false;
-        try {
-            const userData = global.data.users.get(uid) || null;
-            if (userData !== null) {
-                let finalNumber = BigInt(amount) + BigInt(userData.data.money || 0);
-                finalNumber = finalNumber < 0 ? 0 : finalNumber > MAX_BALANCE ? MAX_BALANCE : finalNumber;
-                userData.data.money = String(finalNumber);
-                global.data.users.set(uid, userData);
-
-                if (DATABASE === 'JSON' || DATABASE === 'MONGO') {
-                    return true;
-                }
-            } else return false;
-        } catch (e) {
-            console.error(e);
-            return false;
-        }
+    /**
+     * @deprecated
+     * @param {String} uid
+     * @returns money as Number or null
+     */
+    function getMoney(uid) {
+        throw new Error("Deprecated, please use Balance instead.");
     }
 
-    function decreaseMoney(uid, amount) {
-        if (!uid || !amount) return false;
-        uid = String(uid);
-        if (Number(amount) === NaN) return false;
-        try {
-            const userData = global.data.users.get(uid) || null;
-            if (userData !== null) {
-                let finalNumber = BigInt(userData.data.money || 0) - BigInt(amount);
-                finalNumber = finalNumber < 0 ? 0 : finalNumber > MAX_BALANCE ? MAX_BALANCE : finalNumber;
-                userData.data.money = String(finalNumber);
-                global.data.users.set(uid, userData);
+    /**
+     * @deprecated
+     * @param {string} uid
+     * @param {number} amount
+     * @param {boolean} withEffect
+     * @returns
+     */
+    function increaseMoney(uid, amount, withEffect = true) {
+        throw new Error("Deprecated, please use Balance instead.");
+    }
 
-                if (DATABASE === 'JSON' || DATABASE === 'MONGO') {
-                    return true;
-                }
-            } else return false;
-        } catch (e) {
-            console.error(e);
-            return false;
-        }
+    /**
+     * @deprecated
+     * @param {string} uid
+     * @param {number} amount
+     * @returns
+     */
+    function decreaseMoney(uid, amount) {
+        throw new Error("Deprecated, please use Balance instead.");
     }
 
     return {
@@ -258,8 +340,11 @@ export default function () {
         updateInfo,
         updateData,
         create,
+        getExp,
+        increaseExp,
+        decreaseExp,
         getMoney,
         increaseMoney,
-        decreaseMoney
+        decreaseMoney,
     };
 }

@@ -28,5 +28,6 @@
     "NAME": "Hina Bot",
     "PREFIX": "/",
     "timezone": "Asia/Ho_Chi_Minh",
-    "REFRESH": "3600000"
+    "REFRESH": "3600000",
+    "MAX_BALANCE_LIMIT": "-1"
 }

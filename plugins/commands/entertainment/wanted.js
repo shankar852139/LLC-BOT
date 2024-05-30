@@ -27,7 +27,7 @@ async function onCall({ message, getLang }) {
 
         const avatarURL = global.utils.getAvatarURL(targetID);
         const wanted = await global.getStream(
-            `https://api.popcat.xyz/wanted?image=${encodeURIComponent(
+            `${global.xva_api.popcat}/wanted?image=${encodeURIComponent(
                 avatarURL
             )}`
         );

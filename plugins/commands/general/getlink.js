@@ -1,3 +1,5 @@
+import axios from "axios";
+
 const config = {
     name: "getlink",
     description: "getlink",
@@ -21,30 +23,31 @@ const langData = {
         "noSupportedAttachment": "No supported attachment, only support photo and animated image",
         "uploadFailed": "Upload failed",
         "error": "An error occured"
+    },
+    "ar_SY": {
+        "replyMessage": "الرجاء الرد على الرسالة",
+        "noAttachment": "لا يوجد مرفق",
+        "noSupportedAttachment": "لا يوجد مرفق مدعوم ، يدعم فقط الصور والصورة المتحركة",
+        "uploadFailed": "فشل الرفع",
+        "error": "حدث خطأ"
     }
 }
 
 const supportedType = ["photo", "animated_image"];
 
-function upload(url) {
-    return new Promise(resolve => {
-        global.request(`${global.xva_api.main}/imgbb`, {
-            method: "POST",
-            data: {
-                url: url
-            }
-        }, async (error, res, data) => {
-            if (error) {
-                console.error(error);
-                return resolve(null);
-            }
-
-            return resolve(data.url);
-        })
-    })
+async function upload(url) {
+    return axios.post(
+        `${global.xva_api.main}/imgbb`,
+        {
+            url: url,
+            apikey: process.env.IMGBB_KEY
+        }
+    );
 }
 
 async function onCall({ message, getLang }) {
+    if (!process.env.IMGBB_KEY) return message.reply("Please set IMGBB_KEY in the environment variables");
+
     try {
         const { type, messageReply } = message;
 
