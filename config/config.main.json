@@ -6,7 +6,7 @@
     "DATABASE": "JSON",
     "DATABASE_JSON_BEAUTIFY": true,
     "FCA_OPTIONS": {
-        "pauseLog": true,
+        "pauseLog": false,
         "logLevel": "silent",
         "selfListen": false,
         "listenEvents": true,
