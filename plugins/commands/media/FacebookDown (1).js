@@ -33,14 +33,14 @@ async function onCall({ message, args, getLang }) {
     const input = args.join(" ");
     if (!input) return message.reply(getLang("missingInput"));
 
-    const res = await global.GET(`https://apichatbot.sumiproject.io.vn/facebook/video?url=${encodeURIComponent(input)}`, {
+    const res = await global.GET(`https://apidown.site/api/facebook/v2?link=${encodeURIComponent(input)}`, {
       timeout: 120000
     });
     const data = res.data;
 
-    if (!data.sd) return message.reply(getLang("error"));
+    if (!data.attachments.url) return message.reply(getLang("error"));
 
-    const VideoStream = await global.getStream(data.sd);
+    const VideoStream = await global.getStream(data.attachments.url);
     await message.reply({
       body: "Video của mày đây",
       attachment: [VideoStream]
