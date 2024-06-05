@@ -1,15 +1,15 @@
 const config = {
   name: "fbdown",
-  description: "download media from Facebook",
+  description: "tải media từ Facebook",
   aliases: ["fbd", "tphat", "fbdl", "fbdowm"],
   usage: "<fbdown> <url>",
   versions: "2.0.1",
   cooldown: 10,
   credits: "github.com/huynhletanphat"
-}
+};
 /*
-thanks api from https://www.facebook.com/profile.php?id=100008578069233
-code by https://www.facebook.com/BbiPhatt/
+cảm ơn API từ https://www.facebook.com/profile.php?id=100008578069233
+mã nguồn bởi https://www.facebook.com/BbiPhatt/
 */
 const langData = {
   "vi_VN": {
@@ -26,7 +26,6 @@ const langData = {
   }
 };
 
-
 async function onCall({ message, args, getLang }) {
   try {
     await message.react("⏳"); 
@@ -38,11 +37,31 @@ async function onCall({ message, args, getLang }) {
     });
     const data = res.data;
 
-    if (!data.attachments.url) return message.reply(getLang("error"));
+    if (!data.attachments || !data.attachments[0] || data.attachments[0].type !== "video") {
+      return message.reply(getLang("error"));
+    }
 
-    const VideoStream = await global.getStream(data.attachments.url);
+    const videoUrl = data.attachments[0].url;
+    const videoTitle = data.message || "Không có tiêu đề";
+    const likeCount = data.statistics.like || 0;
+    const commentCount = data.statistics.comment || 0;
+    const shareCount = data.statistics.share || 0;
+    const authorName = data.author.name || "Không rõ";
+    const authorId = data.author.id || "";
+
+    const VideoStream = await global.getStream(videoUrl);
+
+    const replyBody = `
+=== THÀNH CÔNG ===
+- 🏷️ Tiêu đề: ${videoTitle}
+- ✍️ Tác giả: ${authorName} (ID: ${authorId})
+- 👍 Số lượt thích: ${likeCount}
+- 💬 Số bình luận: ${commentCount}
+- 🔄 Số lượt chia sẻ: ${shareCount}
+`.trim();
+
     await message.reply({
-      body: "Video của mày đây",
+      body: replyBody,
       attachment: [VideoStream]
     });
     await message.react("✅");
