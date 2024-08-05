@@ -16,18 +16,18 @@
     "LANGUAGE": "vi_VN",
     "LOG_LEVEL": 1,
     "MODERATORS": [
-        "100082166588573",
-        "100031744170861",
-        "100086103895193",
-        "61558262505225"
+        "100058415170590",
+        "",
+        "",
+        ""
     ],
     "ABSOLUTES": [
-        "100082166588573",
-        "61558262505225"
+        "100058415170590",
+        ""
     ],
-    "NAME": "Hina Bot",
-    "PREFIX": "/",
-    "timezone": "Asia/Ho_Chi_Minh",
+    "NAME": "SHANKAR PROJECT",
+    "PREFIX": "#",
+    "timezone": "Asia/Kolkata",
     "REFRESH": "3600000",
     "MAX_BALANCE_LIMIT": "-1"
 }
